@@ -1,0 +1,307 @@
+/* navbar*/
+
+body {
+  position: relative;
+}
+
+.navbar-nav li{
+  padding-left:10px;
+  padding-right:10px;
+  margin-right: 10px;
+  font-size: 1.1em;
+}
+
+
+/*General*/
+a { color: white;
+    transition-duration: 0.4s;
+}
+
+a:hover {
+  color: #e0912e;
+}
+
+
+h2 {
+  margin-top: 5%;
+  text-align: center;
+  color: #8f1e68;
+}
+
+button {
+  transition-duration: 0.4s;
+  background-color: #e0912e;
+  border-radius: 12px;
+  font-size: 15px;
+  color: #9e2374;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-style: none;
+}
+
+button:hover {
+  background-color: white;
+  color: #731954;
+}
+
+/*Header*/
+section {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+section:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 50% 50%/0 0 50% 50%;
+  background-image: linear-gradient(to right top, #0d0e3f, #731954, #bf4448, #e0912e, #cae54b);
+}
+
+section .content {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+
+}
+
+section .content h1{
+  margin: auto;
+  padding: 1em;
+  color: white;
+  font-size: 3em;
+
+}
+
+section .content p{
+  color: white;
+  font-size: 1.2em;
+  margin-bottom: 10%;
+}
+
+
+.fab.fa-linkedin-in.fa-2x {
+  margin-left: 5%;
+}
+
+/*About*/
+
+#about {
+  margin-top: 10%;
+}
+
+.about {
+  margin-top: 4%;
+  margin-left: 30%;
+  margin-right: 20%;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: [heightofbox];
+  background-color: white;
+  height: 300px;
+}
+
+.about img{
+  margin-top: 40px;
+  height: auto;
+  width: auto;
+  max-width: 275px;
+  max-height: 275px;
+}
+
+.about .desc{
+ padding: 2em;
+ border-left:4px solid #731954;
+}
+
+.about p{
+ padding-top: 30px;
+ margin-right: 30%;
+ line-height:2;
+ color:#888;
+}
+
+/*Portfolio*/
+
+.container {
+  margin-right: 25%;
+  padding-bottom: 1%;
+}
+
+.portfolio-sub p{
+  margin-top: 20px;
+  text-align: center;
+  color:#888;
+}
+.portfolio-note-1 {
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: center;
+  color:#888;
+}
+
+.portfolio-note-2 {
+  margin-top: 30px;
+  text-align: center;
+  font-style: oblique;
+  color:#888;
+}
+
+.portfolio-icon {
+  position: relative;
+  color: #801c5d;
+  margin-left:85%;
+  top:45%;
+
+}
+
+.portfolio h4 {
+  padding-top: 30px;
+  margin-left: 10%;
+  margin-right: 30%;
+  color: #5e1545;
+}
+
+.portfolio h5 {
+  text-align: center;
+  color: #5e1545;
+}
+
+.portfolio p{
+  padding-top: 10px;
+  margin-left: 10%;
+  margin-right: 30%;
+  color:#888;
+}
+
+
+/*Work experience*/
+
+#experience {
+  padding-top: 5%;
+}
+
+.job-bg{
+  background: rgb(244,242,245);
+  background: linear-gradient(90deg, rgba(244,242,245,1) 73%, rgba(221,203,216,1) 98%, rgba(213,190,206,1) 100%);
+}
+
+.job  {
+  text-align: right;
+}
+
+.container {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: [heightofbox];
+}
+
+.experience h3 {
+  padding-top: 30px;
+  color: #5e1545;
+}
+
+.experience h5 {
+  margin-left: 10%;
+  color:#6d6d6d;
+}
+
+.experience li{
+  padding-top: 30px;
+  margin-left: 10%;
+  margin-right: 30%;
+  text-align: left;
+  color:#888;
+}
+
+.experience p{
+  color:#888;
+}
+/*Education*/
+
+#skills  {
+  margin-top: 12%;
+  padding-top: 4%;
+}
+
+.skills-bg{
+  background: rgb(244,242,245);
+  background: linear-gradient(90deg, rgba(244,242,245,1) 73%, rgba(221,203,216,1) 98%, rgba(213,190,206,1) 100%);
+}
+
+.skills.row-1 {
+  margin-bottom: 5%;
+}
+
+.skills.row {
+  margin-bottom: 5%;
+}
+
+
+.skills.row p {
+  text-align: center;
+}
+
+.skill-icon {
+  color:#9e2374;
+  margin-left: 20px;
+}
+
+.dot-icon {
+  color:#888;
+}
+
+.iconify{
+  margin-left: 10px;
+}
+
+.skills.container {
+  text-align: center;
+  margin-left: 20%;
+}
+
+.skills h5 {
+  color:#731954;
+  margin-bottom: 20px;
+}
+
+.skills p{
+  text-align: left;
+  color:#888;
+}
+
+.shape {
+  transition-duration: 0.4s;
+  background-color: #e0912e;
+  border-radius: 12px;
+  font-size: 15px;
+  color: #9e2374;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-style: none;
+  width: 9%;
+
+}
+/*Contact*/
+
+.contact {
+  margin-top: 2%;
+  margin-bottom: 10%;
+  text-align: center;
+  font-size: 1.4em;
+  color: #9e2374;
+
+}
