@@ -44,6 +44,14 @@ button:hover {
   color: #731954;
 }
 
+.container {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: [heightofbox];
+}
+
 /*Header*/
 section {
   position: relative;
@@ -120,24 +128,15 @@ section .content p{
   max-height: 275px;
 }
 
-.about .desc{
- padding: 2em;
- border-left:4px solid #731954;
-}
+
 
 .about p{
  padding-top: 30px;
- margin-right: 30%;
  line-height:2;
  color:#888;
 }
 
 /*Portfolio*/
-
-.container {
-  margin-right: 25%;
-  padding-bottom: 1%;
-}
 
 .portfolio-sub p{
   margin-top: 20px;
@@ -185,6 +184,10 @@ section .content p{
   color:#888;
 }
 
+.portfolio {
+  padding-right: 10%;
+}
+
 
 /*Work experience*/
 
@@ -199,14 +202,6 @@ section .content p{
 
 .job  {
   text-align: right;
-}
-
-.container {
-  padding-top: 3%;
-  padding-bottom: 3%;
-  text-align: justify;
-  text-justify: inter-word;
-  line-height: [heightofbox];
 }
 
 .experience h3 {
@@ -244,10 +239,12 @@ section .content p{
 
 .skills.row-1 {
   margin-bottom: 5%;
+  margin-right: 20%;
 }
 
 .skills.row {
   margin-bottom: 5%;
+  margin-right: 20%;
 }
 
 
@@ -302,6 +299,7 @@ section .content p{
   margin-bottom: 10%;
   text-align: center;
   font-size: 1.4em;
+  display: block;
   color: #9e2374;
 
 }
